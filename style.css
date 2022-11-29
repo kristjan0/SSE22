@@ -16,11 +16,14 @@ button:hover{
     border: 2px dashed rgb(18, 85, 90);
     cursor: pointer;
 }
+html{
+    background-image: linear-gradient(azure, rgb(8, 138, 138));
+    background-size:auto;
+    min-height: 100%;
+}
 body{
     font-family: Alcubierre;
     /*background-color: azure;*/
-    background-image: linear-gradient(azure, rgb(8, 138, 138));
-    background-size:cover;
     letter-spacing: 1.5px;
     font-size: 20px;
     font-weight: bold;
