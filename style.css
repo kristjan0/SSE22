@@ -14,6 +14,7 @@ button:hover{
     text-decoration: underline;
     background: rgb(119, 190, 190);
     border: 2px dashed rgb(18, 85, 90);
+    cursor: pointer;
 }
 body{
     font-family: Alcubierre;
@@ -23,4 +24,14 @@ body{
     letter-spacing: 1.5px;
     font-size: 20px;
     font-weight: bold;
+}
+.tooted_nupp{
+    text-align: center;
+    background-color: rgb(171, 240, 240);
+    cursor: pointer;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    color: rgb(18, 85, 90);
+    font-weight: bolder;
+    border-radius: 50px;
 }
