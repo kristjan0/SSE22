@@ -38,3 +38,19 @@ body{
     font-weight: bolder;
     border-radius: 50px;
 }
+
+.images{
+    display: flex;
+    flex-flow: column;
+    align-items: center
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+}
+
+img{
+    height:350px;
+    margin: 0px 100px 60px 30px;
+}
