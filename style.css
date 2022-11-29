@@ -11,7 +11,7 @@ button:hover{
     background: rgb(119, 190, 190);
     border: 2px dashed rgb(18, 85, 90);
 }
-.pealeht{
+body{
     font-family: Alcubierre;
     background-color: azure;
     background-size:cover;
