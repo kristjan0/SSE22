@@ -16,7 +16,7 @@ button:hover{
     border: 2px dashed rgb(18, 85, 90);
 }
 html{
-    background-image: linear-gradient(azure, rgb(8, 138, 138));
+    background-image: linear-gradient(azure, rgb(44, 141, 141));
     background-size:auto;
     min-height: 100%;
 }
