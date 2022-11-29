@@ -2,28 +2,57 @@
     font-family: Alcubierre;
     src: url(Alcubierre.otf);
 }
-h1{
-    text-align: center;
+@media (prefers-color-scheme: light) {
+    h1{
+        text-align: center;
+    }
+    .nupud{
+        text-align: right;
+    }
+    button:hover{
+        font-weight: bold;
+        color: azure;
+        text-decoration: underline;
+        background: rgb(119, 190, 190);
+        border: 2px dashed rgb(18, 85, 90);
+    }
+    html{
+        background-image: linear-gradient(azure, rgb(8, 138, 138));
+        background-size:auto;
+        min-height: 100%;
+    }
+    body{
+        font-family: Alcubierre;
+        /*background-color: azure;*/
+        letter-spacing: 1.5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
-.nupud{
-    text-align: right;
-}
-button:hover{
-    font-weight: bold;
-    color: azure;
-    text-decoration: underline;
-    background: rgb(119, 190, 190);
-    border: 2px dashed rgb(18, 85, 90);
-}
-html{
-    background-image: linear-gradient(azure, rgb(8, 138, 138));
-    background-size:auto;
-    min-height: 100%;
-}
-body{
-    font-family: Alcubierre;
-    /*background-color: azure;*/
-    letter-spacing: 1.5px;
-    font-size: 20px;
-    font-weight: bold;
+@media (prefers-color-scheme: dark) {
+    h1{
+        text-align: center;
+    }
+    .nupud{
+        text-align: right;
+    }
+    button:hover{
+        font-weight: bold;
+        color: azure;
+        text-decoration: underline;
+        background: rgb(119, 190, 190);
+        border: 2px dashed rgb(18, 85, 90);
+    }
+    html{
+        background-image: linear-gradient(azure, rgb(8, 138, 138));
+        background-size:auto;
+        min-height: 100%;
+    }
+    body{
+        font-family: Alcubierre;
+        /*background-color: azure;*/
+        letter-spacing: 1.5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
