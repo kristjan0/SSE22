@@ -47,7 +47,6 @@ html{
 }
 body{
     font-family: Alcubierre;
-    /*background-color: azure;*/
     letter-spacing: 1.5px;
     font-size: 20px;
     font-weight: bold;
@@ -67,7 +66,7 @@ body{
     margin-top: 5%;
     display: flex;
     flex-flow: column;
-    align-items: center
+    align-items: center;
 }
 
 .row {
