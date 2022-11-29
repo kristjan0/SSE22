@@ -4,6 +4,13 @@ h1{
 .nupud{
     text-align: right;
 }
+button:hover{
+    font-weight: bold;
+    color: azure;
+    text-decoration: underline;
+    background: rgb(119, 190, 190);
+    border: 2px dashed rgb(18, 85, 90);
+}
 .pealeht{
     font-family: Alcubierre;
     background-color: azure;
