@@ -49,6 +49,7 @@ body{
 .row {
     display: flex;
     flex-flow: row;
+    width: auto;
 }
 
 img{
