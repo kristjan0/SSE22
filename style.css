@@ -208,3 +208,19 @@ figure {
     display: block;
     align-items: center;
 }
+
+.joulud{
+    text-align: center;
+    top: 10%;
+    font-size: 1.5rem;
+    color: #FAFCFF;
+    background-image: url(images/santa.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -15%, 0px;
+    transition: background-position 7s 0s;
+}
+.joulud:hover{
+    background-position: 130%;
+}

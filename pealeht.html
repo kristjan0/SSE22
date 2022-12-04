@@ -12,6 +12,8 @@
     <nav>
         
         <h1 class="AK">AK</h1>
+        <p id="joulud" class="joulud"></p>
+        
         
         <ul class="nav-links">
             <li><a href="pealeht.html">Avaleht</a></li>
@@ -42,6 +44,26 @@
 
 </div>
 
+<script>
+    let aasta = new Date().getFullYear(); //Praegune aasta
+    let jargmisedjoulud = new Date("Dec 24, " + String(aasta) ).getTime(); //Aeg järgmiste jõuludeni
+    let x = setInterval(function(){ //Repeat every sekund
+        let aegpraegu = new Date().getTime(); //Praegu aeg
+        let kunijargmine = jargmisedjoulud - aegpraegu;
+        //Failsafe
+        if (kunijargmine < 0){ //Kui see aasta juba olid jõulud, siis vaatame järgmist aastat :)
+            aasta = aasta + 1
+            jargmisedjoulud = new Date("Dec 24, " + String(aasta)).getTime();
+        }
+        //Arvutan päevadeks, tundideks, minutiteks, sekunditeks
+        let paev = Math.floor(kunijargmine/(1000*60*60*24));
+        let tund = Math.floor((kunijargmine % (1000*60*60*24))/(1000*60*60));
+        let minut = Math.floor((kunijargmine % (1000*60*60))/(1000*60));
+        let sekund = Math.floor ((kunijargmine % (1000*60))/1000);
+        //Väljastan
+        document.getElementById("joulud").innerHTML = "Järgmiste jõuludeni on " + paev + " päeva, " + tund + " tundi, "+ minut + " minutit ja "+ sekund + " sekundit.";
+    },1000);
+</script>
 
 
 </body>
