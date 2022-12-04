@@ -208,3 +208,54 @@ figure {
     display: block;
     align-items: center;
 }
+
+.johanna{
+    position: absolute;
+    top: 56%;
+    left: 5%;
+    font-size: 15px;
+    color: #FAFCFF;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    word-spacing: 3px;
+}
+
+.mona{
+    position: absolute;
+    top: 104%;
+    left: 53%;
+    right: 5%;
+    font-size: 15px;
+    color: #FAFCFF;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    word-spacing: 3px;
+}
+
+.mona_title{
+    position: absolute;
+    top: 95%;
+    left: 52%;
+    font-size: 30px;
+    color: #FAFCFF;
+}
+
+.kristjan_title{
+    position: absolute;
+    top: 135%;
+    left: 5%;
+    font-size: 30px;
+    color: #FAFCFF;
+}
+
+.kristjan{
+    position: absolute;
+    top: 146%;
+    left: 5%;
+    right: 50%;
+    font-size: 15px;
+    color: #FAFCFF;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    word-spacing: 3px;
+}
