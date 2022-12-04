@@ -219,6 +219,7 @@ figure {
     background-repeat: no-repeat;
     background-position: -30%;
     transition: background-position 4s linear;
+    transition-delay: 3s;
     text-align: center;
     font-family:"Quicksand";
     font-size: 1.5rem;
