@@ -43,10 +43,10 @@
 
 </div>
 
-<script>
+<script> //JS Kristjan Noormets
     let aasta = new Date().getFullYear(); //Praegune aasta
     let jargmisedjoulud = new Date("Dec 24, " + String(aasta) ).getTime(); //Aeg järgmiste jõuludeni
-    let x = setInterval(function(){ //Repeat every sekund
+    let x = setInterval(function(){ //Iga 1000ms ehk 1sekundi tagant värskendab teksti
         let aegpraegu = new Date().getTime(); //Praegu aeg
         let kunijargmine = jargmisedjoulud - aegpraegu;
         //Failsafe
@@ -54,7 +54,7 @@
             aasta = aasta + 1
             jargmisedjoulud = new Date("Dec 24, " + String(aasta)).getTime();
         }
-        //Arvutan päevadeks, tundideks, minutiteks, sekunditeks
+        //Arvutan päevadeks, tundideks, minutiteks, sekunditeks. Jagan 1000, et kaotada millisekundid
         let paev = Math.floor(kunijargmine/(1000*60*60*24));
         let tund = Math.floor((kunijargmine % (1000*60*60*24))/(1000*60*60));
         let minut = Math.floor((kunijargmine % (1000*60*60))/(1000*60));
