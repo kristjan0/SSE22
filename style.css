@@ -10,7 +10,7 @@
 .hero{
     width: 100%;
     height: 250vh;
-    background-image: linear-gradient(rgba(8, 8, 8, 0.521),rgba(8, 8, 8, 0.521)), url(images/b3.jpg);
+    background-image: linear-gradient(rgba(8, 8, 8, 0.521),rgba(8, 8, 8, 0.521)), url(pildid/b3.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -212,9 +212,10 @@ figure {
 .joulud{
     right: 0%;
     left: 0%;
+    top: 15px;
     position: absolute;
     height: 128px;
-    background-image: url(images/santa.png);
+    background-image: url(pildid/santa.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -30%;
@@ -222,7 +223,7 @@ figure {
     transition-delay: 3s;
     text-align: center;
     font-family:"Quicksand";
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #FAFCFF;
 
 }
